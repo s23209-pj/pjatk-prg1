@@ -1,6 +1,8 @@
 #include <iostream>
 #include <string>
 
+
+
 auto ask_user_for_integer(std::string prompt) -> int {
   std::cout << prompt << " (wpisz liczbe) ";
   auto n = std::string{};
