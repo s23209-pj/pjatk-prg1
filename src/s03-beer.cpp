@@ -2,7 +2,7 @@
 #include <string>
 
 auto main() -> int {
-  for (auto i = 99; i >= 0; i--) {
+  for (auto i = 99; i > 0; i--) {
     if (i != 0) {
       std::cout << i << " bottles of beer on the wall, " << i
                 << " bottles of beer. \n"
