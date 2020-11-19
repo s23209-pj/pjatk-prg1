@@ -6,7 +6,7 @@ auto main() -> int {
     if (i != 0) {
       std::cout << i << " bottles of beer on the wall, " << i
                 << " bottles of beer. \n"
-                << "Take one down, pass it around.\n";
+                << "Take one down, pass it around, ";
     }
   }
   std::cout << "\n No more bottles of beer on the wall, no more "
